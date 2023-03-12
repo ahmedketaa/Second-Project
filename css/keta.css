@@ -463,6 +463,12 @@ max-height: 100%;
      
       transition: var(--main-transition);
   }
+ @media (max-width:767px) {
+  .gallery .box .image img{
+
+    height: 60%;
+  }
+  }
 /* End Gallery */
 
 /* Start features */
