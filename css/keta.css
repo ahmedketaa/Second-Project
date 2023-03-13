@@ -464,9 +464,20 @@ max-height: 100%;
   }
   @media (max-width:767px) {
   .gallery .box .image img{
-
+    height: 300px;
+    width: 300px;
     
   }
+  .gallery .box{
+    height: fit-content;
+    width: fit-content;
+  }
+  .gallery .box .image{
+    height: fit-content;
+    width:fit-content ;
+  }
+
+
   }
 /* End Gallery */
 
